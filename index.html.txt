@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Single Page Apps for GitHub Pages -->
+    <script>
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) {
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+
+    <title>Ann Arbor Solar Installers | Top Rated Solar Panel Installation Experts</title>
+    <meta name="description" content="Find trusted solar panel installation experts in Ann Arbor. Compare top-rated solar installers, read reviews, and get free quotes for residential and commercial solar systems." />
+    <meta name="keywords" content="Ann Arbor solar installers, solar panel installation, Michigan solar companies, residential solar, commercial solar, solar energy Ann Arbor" />
+    <meta name="author" content="Ann Arbor Solar Directory" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <link rel="canonical" href="https://annarborsolarinstaller.com/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Ann Arbor Solar Installers | Top Rated Solar Panel Installation Experts" />
+    <meta property="og:description" content="Find trusted solar panel installation experts in Ann Arbor. Compare top-rated solar installers, read reviews, and get free quotes." />
+    <meta property="og:url" content="https://annarborsolarinstaller.com/" />
+    <meta property="og:site_name" content="Ann Arbor Solar Directory" />
+    <meta property="og:image" content="https://annarborsolarinstaller.com/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="en_US" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Ann Arbor Solar Installers | Top Rated Solar Panel Installation Experts" />
+    <meta name="twitter:description" content="Find trusted solar panel installation experts in Ann Arbor. Compare top-rated solar installers and get free quotes." />
+    <meta name="twitter:image" content="https://annarborsolarinstaller.com/og-image.jpg" />
+
+    <meta name="geo.region" content="US-MI" />
+    <meta name="geo.placename" content="Ann Arbor" />
+    <meta name="geo.position" content="42.2808;-83.7430" />
+    <meta name="ICBM" content="42.2808, -83.7430" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Ann Arbor Solar Directory",
+      "url": "https://annarborsolarinstaller.com/",
+      "description": "Directory of trusted solar panel installation experts in Ann Arbor, Michigan",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://annarborsolarinstaller.com/?search={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Ann Arbor Solar Directory",
+      "description": "Find trusted solar panel installation experts in Ann Arbor",
+      "url": "https://annarborsolarinstaller.com/",
+      "areaServed": {
+        "@type": "City",
+        "name": "Ann Arbor",
+        "addressRegion": "MI",
+        "addressCountry": "US"
+      },
+      "serviceType": [
+        "Solar Panel Installation",
+        "Solar Energy Consultation",
+        "Residential Solar Systems",
+        "Commercial Solar Systems"
+      ]
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html> 
